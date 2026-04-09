@@ -18,7 +18,7 @@ Pada modul ini, dilakukan persiapan lingkungan kerja dan instalasi CodeIgniter 4
 * **Langkah Kerja:** Mengaktifkan ekstensi PHP (intl, mysqli), mengonfigurasi file `.env`, membuat Controller `Page.php`, dan menerapkan teknik *layouting* sederhana (header & footer).
 * **Hasil:** Halaman statis (Home, About, Contact) yang sudah terintegrasi dengan template.
 
-<img src="ssweb/ss1" width="700"> <p>
+<img src="ssweb/ss1.png" width="700"> <p>
 
 ---
 
@@ -27,7 +27,7 @@ Modul ini membahas cara menghubungkan aplikasi dengan database MySQL dan mengelo
 * **Langkah Kerja:** Membuat database `lab_ci4`, membuat tabel `artikel`, mengonfigurasi koneksi database di `.env`, dan membuat **Model** untuk menangani query data. Implementasi fitur tambah, ubah, dan hapus data (CRUD) dilakukan pada Controller Artikel.
 * **Hasil:** Aplikasi dapat menampilkan daftar artikel dari database dan melakukan manipulasi data.
 
-<img src="ssweb/ss2" width="700"> <p>
+<img src="ssweb/ss2.png" width="700"> <p>
 
 ---
 
@@ -36,7 +36,7 @@ Modul ini memperkenalkan fitur canggih dari CI4 untuk efisiensi tampilan (UI).
 * **Langkah Kerja:** Menggunakan **View Layout** (Template Inheritance) dengan perintah `renderSection` dan `extend` agar struktur HTML lebih modular. Selain itu, mengimplementasikan **View Cell** untuk membuat komponen yang bisa dipanggil di mana saja (seperti widget "Artikel Terkini").
 * **Hasil:** Struktur kode View yang lebih bersih dan komponen UI yang dapat digunakan kembali (*reusable*).
 
-<img src="ssweb/ss3" width="700"> <p>
+<img src="ssweb/ss3.png" width="700"> <p>
 
 ---
 
@@ -48,7 +48,7 @@ Modul terakhir fokus pada keamanan aplikasi melalui sistem autentikasi.
 > **Screenshot Praktikum 4:**
 > 
 > (Taruh Screenshot Halaman Login & Dashboard Admin di sini)
-<img src="ssweb/ss4" width="700"> <p>
-<img src="ssweb/ss5" width="700"> <p>
+<img src="ssweb/ss4.png" width="700"> <p>
+<img src="ssweb/ss5.png" width="700"> <p>
 ---
 
